@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "bash deploy.sh",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "@types/node": "^20.4.9",
+    "vite-plugin-vitepress-auto-sidebar": "^1.6.0",
+    "vitepress": "1.0.0-rc.4"
+  }
+}
