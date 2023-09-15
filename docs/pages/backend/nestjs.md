@@ -2,6 +2,10 @@
 
 Nest（NestJS）是一个框架，用于构建高效，可扩展的Node.js服务器端应用程序。它使用渐进式JavaScript，使用TypeScript构建并完全支持TypeScript（但仍使开发人员能够使用纯JavaScript编码），并结合了OOP（面向对象编程），FP（函数式编程）和FRP（函数式响应式编程）的元素。
 
+官方文档 https://nestjs.com/
+
+中文文档 https://nest.coding-time.cn/
+
 ## Nest CLI
 
 ### 全局安装

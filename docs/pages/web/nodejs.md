@@ -32,9 +32,9 @@ Node.js 还可以部署到非网络应用的环境下，比如一个命令行工
 
 访问官网
 
-en nodejs.org/en
+en https://nodejs.org/en
 
-cn www.nodejs.com.cn/
+cn https://www.nodejs.com.cn/
 
 ## 什么是 npm
 
