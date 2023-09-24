@@ -5,17 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "deploy": "bash deploy.sh",
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "vue": "^3.3.4"
-  },
   "dependencies": {
     "@types/node": "^20.4.9",
     "vite-plugin-vitepress-auto-sidebar": "^1.6.0",

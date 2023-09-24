@@ -2,10 +2,13 @@ import { DefaultTheme, defineConfig } from "vitepress";
 import AutoSidebar from "vite-plugin-vitepress-auto-sidebar";
 
 export default defineConfig({
-  title: "软软 Blog",
+  title: "软软的博客",
   description: "Just playing around.",
   // base: "/Blogs/",
   // srcDir:"/docs",
+  head:[
+    ['link', { rel: 'icon', href: '/logo.svg' }]
+  ],
   markdown: {
     lineNumbers: true,
   },
@@ -14,10 +17,11 @@ export default defineConfig({
   // 忽略死链
   ignoreDeadLinks: true,
   themeConfig: {
-    siteTitle: "软软 Blog",
+    siteTitle: "软软的博客",
     logo: "./logo.svg",
     outlineTitle: "本页目录",
     outline: "deep",
+    
     // 搜索
     search: {
       provider: "local",
