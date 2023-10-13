@@ -4,7 +4,7 @@ import AutoSidebar from "vite-plugin-vitepress-auto-sidebar";
 export default defineConfig({
   title: "软软的博客",
   description: "Just playing around.",
-  // base: "/Blogs/",
+  base: "/Blogs/",
   // srcDir:"/docs",
   head:[
     ['link', { rel: 'icon', href: '/logo.svg' }]
