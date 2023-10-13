@@ -27,4 +27,4 @@ jobs:
           deploy_key: ${{ secrets.VITEPRESS_BLOGS_TOKEN }}
           publish_dir: docs/.vitepress/dist
           publish_branch: gh-pages
-          cname: blog.londontun.top
+          # cname: blog.londontun.top
